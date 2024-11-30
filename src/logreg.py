@@ -108,7 +108,7 @@ def plot_matrix(matrix, classes):
 
 # Experiment with batch sizes
 def batch_size_experiment(X_train, y_train, X_val, y_val, params):
-    batch_sizes = [1000, 6000, 8000]  # Experiment with different batch sizes
+    batch_sizes = [1, 64, 3000]  # Experiment with different batch sizes
     results = {}
     
     for batch in batch_sizes:
