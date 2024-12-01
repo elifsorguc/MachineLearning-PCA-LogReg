@@ -392,22 +392,6 @@ def train_optimal_model_with_metrics(X_train, y_train, X_val, y_val, X_test, y_t
     # Visualize the finalized weight vectors
     visualize_weights(model.weights, title="Finalized Weight Vectors as Images")
 
-    # Add comments about the appearance of the weight images
-    print("\nComment on Weight Images:")
-    print(
-        "Each weight image represents the learned features for a specific digit (0-9)."
-    )
-    print(
-        "The weights are visualized as 28x28 grayscale images, corresponding to the MNIST input dimensions."
-    )
-    print(
-        "The images are blurry but show distinguishable patterns associated with each class."
-    )
-    print(
-        "For example, the weight image for the digit '0' may show a circular shape, while '1' has a vertical line."
-    )
-    print("These patterns represent the features the model has learned to identify the respective classes.")
-
     # Calculate metrics
     precision, recall, f1_score, f2_score = calculate_metrics(cm)
     print_metrics(precision, recall, f1_score, f2_score)
