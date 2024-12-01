@@ -398,7 +398,7 @@ def train_optimal_model_with_metrics(X_train, y_train, X_val, y_val, X_test, y_t
 
 
 
-dataset_path = "/Users/elifsorguc/Desktop/Bilkent/ML/MachineLearning-PCA-LogReg/data/mnist"
+dataset_path = "mnist"
 X_train, y_train, X_test, y_test = load_data(dataset_path)
 X_val, y_val = X_train[:10000], y_train[:10000]
 X_train, y_train = X_train[10000:], y_train[10000:]

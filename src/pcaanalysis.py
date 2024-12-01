@@ -147,7 +147,7 @@ class PCAAnalysis:
         k_values = [1, 50, 250, 500, 1000, 4096]
         self.visualize_reconstruction(k_values)
 
-dataset_path = "/Users/elifsorguc/Desktop/Bilkent/ML/MachineLearning-PCA-LogReg/data/fake"
+dataset_path = "fake"
 
 # Perform PCA Analysis
 pca = PCAAnalysis(dataset_path)
