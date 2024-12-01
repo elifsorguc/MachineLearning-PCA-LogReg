@@ -397,8 +397,8 @@ def train_optimal_model_with_metrics(X_train, y_train, X_val, y_val, X_test, y_t
     print_metrics(precision, recall, f1_score, f2_score)
 
 
-
 dataset_path = "mnist"
+
 X_train, y_train, X_test, y_test = load_data(dataset_path)
 X_val, y_val = X_train[:10000], y_train[:10000]
 X_train, y_train = X_train[10000:], y_train[10000:]

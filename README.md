@@ -16,7 +16,8 @@ For the second question, also install the notebook package:
 pip install notebook
 
 # Dataset
-Make sure the path for datasets are correct in all files.
+"fake" and "mnist" folders should be with source files.
+If you have any issue with reading dataset make sure the path for datasets are correct in all files, and check the current directory you are in the terminal.
 
 # PCA Analysis 
 To run the first question (pcaanalysis.py):
